@@ -4,6 +4,7 @@ import routes from './Routes';
 
 import './App.css';
 import Navbar from './Components/Navabar/Navbar';
+import CoursesHeader from './Components/CoursesHeader/CoursesHeader';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
+      <CoursesHeader />
       {router}
     </div>
   );
