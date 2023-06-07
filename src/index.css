@@ -1,3 +1,12 @@
+:root {
+  --mainColor: #172D13;
+  --SeccondColor: #D76F30;
+  --BtnColor: #6BB77B;
+  --BtnHoverColor: #d6f9dd;
+  --transitionDuration: 0.7s;
+  --transitionTimingFunction: ease;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

@@ -1,0 +1,23 @@
+.customBtn {
+    padding: 10px 30px !important;
+}
+
+.containedBg {
+    background-color: var(--BtnColor) !important;
+    color: var(--BtnHoverColor) !important;
+    border: 1px solid var(--BtnHoverColor) !important;
+}
+
+.outlinedBg {
+    background-color: var(--BtnHoverColor) !important;
+    color: var(--BtnColor) !important;
+    border: 1px solid var(--BtnColor) !important;
+    transition: background, color;
+    transition-duration: var(--transitionDuration);
+    transition-timing-function: var(--transitionTimingFunction);
+}
+
+.outlinedBg:hover {
+    background-color: var(--BtnColor) !important;
+    color: var(--BtnHoverColor) !important;
+}
