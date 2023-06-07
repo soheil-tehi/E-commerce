@@ -1,0 +1,9 @@
+.logoWrapper {
+    height: 80px;
+    width: 80px;
+}
+
+.logoWrapper img {
+    height: 100%;
+    width: 100%;
+}

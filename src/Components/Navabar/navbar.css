@@ -1,0 +1,14 @@
+.iconBtn {
+    padding: 6px !important;
+    font-size: 2em !important;    
+}
+
+.searchBtn {
+    background-color: var(--BtnColor) !important;
+    color: var(--BtnHoverColor) !important;
+}
+
+.ShoppingCartBtn {
+    background-color: white !important;
+    color: gray !important;
+}

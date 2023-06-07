@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+.BgmainColor {
+  background-color: var(--BtnColor) !important;
+}
+
+.BgseccondColor {
+  background-color: var(--SeccondColor) !important;
+}
+
+.textMainColor {
+  color: var(--BtnColor) !important;
+}
+
+.textSeccondColor {
+  color: var(--SeccondColor) !important;
+}
