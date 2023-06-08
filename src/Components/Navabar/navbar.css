@@ -23,10 +23,32 @@ header .nav-btn {
     opacity: 0;
 }
 
+.menu-account,
+.menu-avatar {
+    display: none !important;
+}
+
+.avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 0 6px 2px #0000001a;
+    border: 1px solid #0000001a;
+    margin-right: 10px;
+}
+  
+  .avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
 @media only screen and (max-width: 1024px) {
     header .nav-btn {
         display: inline-block;
-        opacity: 1;
+        opacity: 1;        
+        order: -2;
     }
 
     header .responsive_nav {
@@ -34,7 +56,17 @@ header .nav-btn {
     }
 
     .mainHeader-left {
+        order: -1;
+        margin-right: auto;
+    }
+
+    .mainHeader-left button {
         display: none !important;
+    }
+
+    .menu-account,
+    .menu-avatar {
+        display: block !important;
     }
 
 }

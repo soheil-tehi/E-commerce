@@ -10,7 +10,7 @@ interface ButtonProps {
   style?: CSSProperties;
 }
 
-function MyButton({ variant, className, children, ...otherBtnProps }: ButtonProps) {
+const MyButton =  memo(function MyButton({ variant, className, children, ...otherBtnProps }: ButtonProps) {
 
   return (
     <Button
@@ -19,6 +19,6 @@ function MyButton({ variant, className, children, ...otherBtnProps }: ButtonProp
       {children}
     </Button>
   );
-}
+});
 
-export default memo(MyButton);
+export default MyButton;
