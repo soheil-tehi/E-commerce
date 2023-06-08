@@ -1,10 +1,12 @@
+.course-Wrapper {}
+
 .course {
     margin: 150px auto;
     border: 1px solid black;
-    width: 400px;
     border-radius: 5px;
     transition: 0.4s;
     margin: 10px;
+    
 }
 
 .course:hover {

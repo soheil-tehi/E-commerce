@@ -6,6 +6,7 @@ import './App.css';
 import Navbar from './Components/Navabar/Navbar';
 import CoursesHeader from './Components/CoursesHeader/CoursesHeader';
 import CourseBox from './Components/CourseBox/CourseBox';
+import FrontProducts from './Pages/FrontProducts/FrontProducts';
 
 
 function App() {
@@ -15,7 +16,6 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <CourseBox />
       {router}
     </div>
   );

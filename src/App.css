@@ -1,4 +1,5 @@
-@import url('bootstrap/dist/css/bootstrap.css');
+@import url('bootstrap/dist/css/bootstrap.rtl.min.css');
+
 .App {
   text-align: center;
 }
@@ -33,6 +34,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -58,4 +60,38 @@
   display: flex !important;
   justify-content: space-between !important;
   align-items: center !important;
+}
+
+
+/* Media query */
+@media screen and (min-width: 1366px) {
+  p {
+    font-size: 38px;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  p {
+    font-size: 38px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  p {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  p {
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  p {
+    font-size: 16px;
+
+
+  }
 }

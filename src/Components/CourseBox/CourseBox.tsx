@@ -13,7 +13,7 @@ function CourseBox() {
                     <img src="/images/course-cover.png" alt="course-cover" />
                 </div>
                 <div className="course-info">
-                    <h2 className="course-title">دوره پروژه محور</h2>
+                    <h4 className="course-title">دوره پروژه محور</h4>
                     <div className="course-teacher-rating">
                         <div className="course-teacher">
                             <FaChalkboardTeacher />
