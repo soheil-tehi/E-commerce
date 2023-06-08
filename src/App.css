@@ -1,3 +1,11 @@
+@import url('bootstrap/dist/css/bootstrap.rtl.min.css');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
 }
@@ -62,34 +70,25 @@
 
 
 /* Media query */
-@media screen and (min-width: 1366px) {
-  p {
-    font-size: 38px;
-  }
-}
+@media screen and (min-width: 1366px) {}
 
 @media screen and (max-width: 1366px) {
-  p {
-    font-size: 38px;
+  .goal-icon {
+    font-size: 16px;
   }
 }
 
-@media screen and (max-width: 1024px) {
-  p {
-    font-size: 32px;
-  }
-}
+@media screen and (max-width: 1024px) {}
 
 @media screen and (max-width: 768px) {
-  p {
-    font-size: 26px;
+  .goal-info-description {
+    display: none;
   }
+
 }
 
 @media screen and (max-width: 480px) {
-  p {
-    font-size: 16px;
-
-
+  .goal-info-description {
+    display: none;
   }
 }

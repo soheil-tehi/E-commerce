@@ -1,0 +1,24 @@
+.goal-box {
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+.goal-icon {
+    font-size: 50px;
+    margin-left: 15px;
+}
+
+.goal-info {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.goal-info :first-child {
+    font-weight: bolder;
+}

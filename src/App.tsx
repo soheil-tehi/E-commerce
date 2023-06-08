@@ -7,6 +7,8 @@ import Navbar from './Components/Navabar/Navbar';
 import CoursesHeader from './Components/CoursesHeader/CoursesHeader';
 import CourseBox from './Components/CourseBox/CourseBox';
 import FrontProducts from './Pages/FrontProducts/FrontProducts';
+import GoalBox from './Components/GoalBox/GoalBox';
+import { Col, Container, Row } from 'react-bootstrap';
 
 
 function App() {
