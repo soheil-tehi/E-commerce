@@ -32,7 +32,7 @@ const Navbar = memo(function Navbar() {
                         <IconButton className='nav-btn nav-close-btn text-light' onClick={showNavbar}>
                             <FaTimes />
                         </IconButton>
-                        <Avatar src='images/avatar.jpg' className='menu-avatar' alt='avatar'/>
+                        <Avatar className='menu-avatar' alt='avatar'/>
                         <MyButton variant='outlined' className='menu-account py-2 me-2' >
                             سهیل طهرانی و سروش طهرانی
                         </MyButton>

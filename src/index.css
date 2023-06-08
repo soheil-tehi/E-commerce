@@ -9,7 +9,7 @@
 
 @font-face {
   font-family: 'Parastoo';
-  src: local('Parastoo'), url(./Fonts/Parastoo.ttf) format('truetype');
+  src: local('Parastoo'), url("./Asset/Fonts/Parastoo.ttf") format('truetype');
 }
 
 

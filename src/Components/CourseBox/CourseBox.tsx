@@ -2,6 +2,7 @@ import React from 'react';
 import { FaChalkboardTeacher } from 'react-icons/fa';
 import { IoIosPeople } from 'react-icons/io';
 import { BsFillArrowLeftSquareFill } from 'react-icons/bs';
+import courseCoverImg from '../../Asset/Images/course-cover.png';
 
 import './CourseBox.css'
 
@@ -10,7 +11,7 @@ function CourseBox() {
         <>
             <div className="course">
                 <div className="course-cover">
-                    <img src="/images/course-cover.png" alt="course-cover" />
+                    <img src={courseCoverImg} alt="course-cover" />
                 </div>
                 <div className="course-info">
                     <h4 className="course-title">دوره پروژه محور</h4>
