@@ -1,4 +1,4 @@
-import React, { ReactNode, forwardRef } from 'react'
+import React, { ReactNode, forwardRef, memo } from 'react'
 import './menu.css';
 
 interface MenuProps {
@@ -6,7 +6,7 @@ interface MenuProps {
     listPages: string[];
 }
 
-const Menu = forwardRef(({ listPages, children }: MenuProps, ref: any) => {
+const Menu = memo(forwardRef(({ listPages, children }: MenuProps, ref: any) => {
     return (
         <nav ref={ref}>
             <ul className='menu m-0'>
@@ -19,6 +19,6 @@ const Menu = forwardRef(({ listPages, children }: MenuProps, ref: any) => {
             </ul>
         </nav>
     )
-})
+}))
 
 export default Menu;

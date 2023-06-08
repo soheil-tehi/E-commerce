@@ -6,10 +6,11 @@ import Menu from './Menu/Menu';
 import MyButton from '../Button/Button';
 import './navbar.css';
 import IconButton from '../IconButton/IconButton';
+import Avatar from './Avatar/Avatar';
 
 const pages = ['صفحه اصلی', 'فرانت اند', 'امنیت', 'مقالات'];
 
-function Navbar() {
+const Navbar = memo(function Navbar() {
     const navRef = useRef<HTMLDivElement>();
     const showNavbar = () => {
         if (navRef.current) {
@@ -31,6 +32,10 @@ function Navbar() {
                         <IconButton className='nav-btn nav-close-btn text-light' onClick={showNavbar}>
                             <FaTimes />
                         </IconButton>
+                        <Avatar src='images/avatar.jpg' className='menu-avatar' alt='avatar'/>
+                        <MyButton variant='outlined' className='menu-account py-2 me-2' >
+                            سهیل طهرانی و سروش طهرانی
+                        </MyButton>
                     </Menu>
                 </div>
                 <div className='mainHeader-left flexBasic'>
@@ -42,10 +47,12 @@ function Navbar() {
                     </IconButton>
                     <MyButton variant='outlined' className='py-2 me-2' >
                         سهیل طهرانی و سروش طهرانی
-                    </MyButton>
+                    </MyButton>                    
+                    <Avatar src='images/avatar.jpg' alt='avatar'/>
                 </div>
             </div>
         </header>
     );
-}
-export default memo(Navbar);
+})
+
+export default Navbar;
