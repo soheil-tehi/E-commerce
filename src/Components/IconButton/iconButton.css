@@ -1,0 +1,13 @@
+.buttonIcon {
+    width: 40px;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    border-radius: 5px;
+  }
+
+  .buttonIcon svg {
+    font-size: 1.7rem;
+  }

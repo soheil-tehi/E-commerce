@@ -1,3 +1,4 @@
+@import url('bootstrap/dist/css/bootstrap.css');
 .App {
   text-align: center;
 }
@@ -51,4 +52,10 @@
 
 .textSeccondColor {
   color: var(--SeccondColor) !important;
+}
+
+.flexBasic {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
 }

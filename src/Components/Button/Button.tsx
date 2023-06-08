@@ -1,22 +1,24 @@
-import React, { CSSProperties, ReactNode } from 'react'
-import MaterialButton from '@mui/material/Button';
+import React, { CSSProperties, ReactNode, memo } from 'react'
+import Button from 'react-bootstrap/Button';
 import './Button.css';
 
 interface ButtonProps {
   children?: ReactNode;
-  variant: 'contained' | 'outlined';
+  variant: 'contained' | 'outlined' | 'simple';
   onClick?: (data?: any) => void;
   className?: string;
   style?: CSSProperties;
 }
 
-function Button({ variant, className, children, ...otherBtnProps }: ButtonProps) {
+function MyButton({ variant, className, children, ...otherBtnProps }: ButtonProps) {
 
   return (
-    <MaterialButton {...otherBtnProps} className={`customBtn ${variant === 'contained' ? 'containedBg' : 'outlinedBg'} ${className}`}>
-        {children}
-    </MaterialButton>
+    <Button
+      {...otherBtnProps}
+      className={`${variant !== 'simple' ? variant === 'contained' ? 'sweepToLeft containedBg' : 'sweepToLeft outlinedBg' : ''} ${className} btn`}>
+      {children}
+    </Button>
   );
 }
 
-export default Button;
+export default memo(MyButton);

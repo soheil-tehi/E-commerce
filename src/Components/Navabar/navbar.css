@@ -1,6 +1,7 @@
 .iconBtn {
-    padding: 6px !important;
-    font-size: 2em !important;    
+    font-size: 2rem !important;
+    border: 1px solid #000 !important;
+    padding: 3.5px !important;
 }
 
 .searchBtn {
@@ -9,6 +10,31 @@
 }
 
 .ShoppingCartBtn {
-    background-color: white !important;
-    color: gray !important;
+    background-color: #efebeb !important;
+    color: #464749 !important;
+}
+
+header .nav-btn {
+    cursor: pointer;
+    background: transparent !important;
+    border: none !important;
+    outline: none !important;
+    display: none;
+    opacity: 0;
+}
+
+@media only screen and (max-width: 1024px) {
+    header .nav-btn {
+        display: inline-block;
+        opacity: 1;
+    }
+
+    header .responsive_nav {
+        transform: translateY(100vh);
+    }
+
+    .mainHeader-left {
+        display: none !important;
+    }
+
 }
