@@ -1,6 +1,6 @@
 import React from 'react'
-import './CoursesHeader.css';
 import { AiOutlineArrowLeft } from 'react-icons/ai';
+import './CoursesHeader.css';
 interface CoursesHeaderProps {
     title: string,
     desc: string,
@@ -12,14 +12,14 @@ function CoursesHeader({ title, desc, linkTitle }: CoursesHeaderProps) {
         <div className="courses">
             <div className="container">
                 <div className="courses-header">
-                    <div className="courses-header__right">
-                        <span className="courses-header__title title">{title}</span>
-                        <span className="courses-header__text">{desc}</span>
+                    <div className="courses-header-right">
+                        <span className="courses-header-title">{title}</span>
+                        <span className="courses-header-text">{desc}</span>
                     </div>
                     {
                         !!linkTitle &&
-                        <div className="courses-header__left">
-                            <a href="#" className="courses-header__link">
+                        <div className="courses-header-left">
+                            <a href="#" className="courses-header-link">
                                 {linkTitle}
                                 <AiOutlineArrowLeft />
                             </a>

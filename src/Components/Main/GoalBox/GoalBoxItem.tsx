@@ -3,12 +3,12 @@ import { FaChalkboardTeacher } from 'react-icons/fa';
 import { FcApproval } from "react-icons/fc";
 import './GoalBox.css';
 
-interface GoalBoxProps {
+interface GoalBoxItemProps {
     title: string,
     desc: string,
 }
 
-function GoalBox({ title, desc }: GoalBoxProps) {
+function GoalBoxItem({ title, desc }: GoalBoxItemProps) {
     return (
         <>
             <div className='goal-box'>
@@ -24,4 +24,4 @@ function GoalBox({ title, desc }: GoalBoxProps) {
     )
 }
 
-export default GoalBox
+export default GoalBoxItem

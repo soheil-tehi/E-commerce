@@ -2,7 +2,7 @@ import React from 'react'
 
 import './FrontProducts.css';
 import { Col, Container, Row } from 'react-bootstrap';
-import CourseBox from '../../Components/CourseBox/CourseBox';
+import CourseBox from '../../Components/CourseBox/CourseBoxItem';
 
 
 function FrontProducts() {

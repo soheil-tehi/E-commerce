@@ -10,31 +10,54 @@
 
 }
 
-.courses-header__right {
+.courses-header-right {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
 
-.courses-header__title title {}
+.courses-header-title {
+    position: relative;
+}
 
-.courses-header__text {}
 
-.courses-header__left {
-    border: 1px solid red;
-    background-color: red;
+.courses-header-title:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    max-width: 250px;
+    height: 60%;
+    background-color: rgba(43, 206, 86, 0.2);
+}
+
+
+
+.courses-header-text {}
+
+.courses-header-left {
+    border: 1px solid rgba(43, 206, 86, 0.2);
+    background-color: rgba(43, 206, 86, 0.2);
     padding: 10px;
     border-radius: 5px;
     transition: 0.4s;
 }
 
-.courses-header__left:hover {
-    border: 1px solid rgb(245, 130, 130);
-    background-color: rgb(245, 130, 130);
+.courses-header-left:hover a:hover {
+
+    border: 1px solid rgba(3, 123, 35, 0.7);
+    background-color: rgba(3, 123, 35, 0.7);
+    color: white;
+
 }
 
-.courses-header__link {
+.courses-header-left:hover {}
+
+.courses-header-link {
     text-decoration: none;
     font-weight: bold;
     color: black;
 }
+
+.courses-header-link:hover {}

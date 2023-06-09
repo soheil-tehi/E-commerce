@@ -6,7 +6,7 @@ import courseCoverImg from '../../Asset/Images/course-cover.png';
 
 import './CourseBox.css'
 
-function CourseBox() {
+function CourseBoxItem() {
     return (
         <>
             <div className="course">
@@ -24,15 +24,12 @@ function CourseBox() {
                             <span>rating</span>
                         </div>
                     </div>
-
                     <div className="course-student-price">
                         <div className="course-student">
                             <IoIosPeople />
                             <span>500</span>
                         </div>
-
                         <p className='course-price'>1,000,000</p>
-
                     </div>
                 </div>
                 <div className="course-footer">
@@ -40,10 +37,8 @@ function CourseBox() {
                     <BsFillArrowLeftSquareFill style={{ fontSize: "20px" }} />
                 </div>
             </div>
-
-
         </>
     )
 }
 
-export default CourseBox
+export default CourseBoxItem;

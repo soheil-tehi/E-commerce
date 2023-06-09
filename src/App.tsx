@@ -5,9 +5,9 @@ import routes from './Routes';
 import './App.css';
 import Navbar from './Components/Navabar/Navbar';
 import CoursesHeader from './Components/CoursesHeader/CoursesHeader';
-import CourseBox from './Components/CourseBox/CourseBox';
+import CourseBox from './Components/CourseBox/CourseBoxItem';
 import FrontProducts from './Pages/FrontProducts/FrontProducts';
-import GoalBox from './Components/Main/GoalBox/GoalBox';
+import GoalBox from './Components/Main/GoalBox/GoalBoxItem';
 import { Col, Container, Row } from 'react-bootstrap';
 
 

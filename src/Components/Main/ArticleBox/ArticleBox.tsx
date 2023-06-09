@@ -4,6 +4,7 @@ import articleImg1 from '../../../Asset/Images/ArticleBox/articleBox-1.jpg';
 import articleImg2 from '../../../Asset/Images/ArticleBox/articleBox-2.png';
 import articleImg3 from '../../../Asset/Images/ArticleBox/articleBox-3.jpg';
 import { Row } from 'react-bootstrap';
+import CoursesHeader from '../../CoursesHeader/CoursesHeader';
 
 interface ArticaleBoxItemType {
     id: number;
@@ -40,17 +41,24 @@ const articaleBoxItems: ArticaleBoxItemType[] = [
 const ArticleBox = memo(function ArticleBox() {
 
     return (
-        <section className='py-5'>
-            <div className="container flexBasic">
-                <Row>
-                    {
-                        articaleBoxItems.map((item: ArticaleBoxItemType) => (
-                            <ArticleBoxItem key={item.id} {...item} />
-                        ))
-                    }
-                </Row>
-            </div>
-        </section>
+        <>
+            <CoursesHeader
+                title={"جدیدترین مقاله ها"}
+                desc={"پیش به سوی ارتقای دانش"}
+                linkTitle={"تمامی مقالات"}
+            />
+            <section className='py-5'>
+                <div className="container flexBasic">
+                    <Row>
+                        {
+                            articaleBoxItems.map((item: ArticaleBoxItemType) => (
+                                <ArticleBoxItem key={item.id} {...item} />
+                            ))
+                        }
+                    </Row>
+                </div>
+            </section>
+        </>
     )
 });
 
