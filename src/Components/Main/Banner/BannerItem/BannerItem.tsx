@@ -1,4 +1,4 @@
-import React, { ReactNode, memo } from 'react'
+import { ReactNode, memo } from 'react'
 import { Col } from 'react-bootstrap';
 
 interface BannerItemProps {
@@ -13,7 +13,7 @@ const BannerItem = memo(function BannerItem({ icon, title }: BannerItemProps) {
             {icon}
             <p> {title} </p>
         </Col>
-    )
+    );
 })
 
 export default BannerItem;

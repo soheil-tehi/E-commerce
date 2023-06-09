@@ -50,7 +50,6 @@ const Banner = memo(function Banner() {
                         ))
                     }
                 </Row>
-
             </div>
         </section>
     )

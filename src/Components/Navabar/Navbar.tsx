@@ -39,9 +39,6 @@ const Navbar = memo(function Navbar() {
                     </Menu>
                 </div>
                 <div className='mainHeader-left flexBasic'>
-                    <IconButton className='searchBtn'>
-                        <BiSearchAlt2 />
-                    </IconButton>
                     <IconButton className='me-2 ShoppingCartBtn'>
                         <FaShoppingCart />
                     </IconButton>

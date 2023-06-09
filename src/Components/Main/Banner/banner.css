@@ -84,7 +84,6 @@
 
 @media screen and (max-width: 768px) {
 
-
     .banner h1,
     .banner-goal div p {
         font-size: 1.5rem;
@@ -100,7 +99,7 @@
 
     .banner-search {
         width: 60%;
-    }
+    }    
 }
 
 @media screen and (max-width: 480px) {
