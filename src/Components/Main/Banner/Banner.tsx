@@ -1,11 +1,11 @@
 import React, { ReactNode, memo } from 'react'
-import './banner.css';
 import IconButton from '../../IconButton/IconButton';
 import { BiSearchAlt2 } from 'react-icons/bi';
 import { IoMdStopwatch } from 'react-icons/io';
 import { FaCode, FaUserGraduate } from 'react-icons/fa';
 import { Col, Row } from 'react-bootstrap';
 import BannerItem from './BannerItem/BannerItem';
+import './banner.css';
 
 interface BannerGoalsDataType {
     id: number,

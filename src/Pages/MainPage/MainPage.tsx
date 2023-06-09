@@ -4,8 +4,8 @@ import CoursesHeader from '../../Components/CoursesHeader/CoursesHeader';
 import { Col, Container, Row } from 'react-bootstrap';
 import CourseBox from '../../Components/CourseBox/CourseBox';
 import goadData from '../../Asset/GoalBoxData/goals';
-import GoalBox from '../../Components/GoalBox/GoalBox';
 import ArticleBox from '../../Components/Main/ArticleBox/ArticleBox';
+import GoalBox from '../../Components/Main/GoalBox/GoalBox';
 
 function MainPage() {
 
@@ -57,7 +57,7 @@ function MainPage() {
                     linkTitle={"تمامی مقالات"}
                 />
 
-            <ArticleBox />
+                <ArticleBox />
             </Container>
         </>
     )
