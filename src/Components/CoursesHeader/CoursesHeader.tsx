@@ -1,21 +1,30 @@
 import React from 'react'
 import './CoursesHeader.css';
+import { AiOutlineArrowLeft } from 'react-icons/ai';
+interface CoursesHeaderProps {
+    title: string,
+    desc: string,
+    linkTitle: string,
+}
 
-function CoursesHeader() {
+function CoursesHeader({ title, desc, linkTitle }: CoursesHeaderProps) {
     return (
         <div className="courses">
             <div className="container">
                 <div className="courses-header">
                     <div className="courses-header__right">
-                        <span className="courses-header__title title">جدیدترین دوره ها</span>
-                        <span className="courses-header__text">سکوی پرتاپ شما به سمت موفقیت</span>
+                        <span className="courses-header__title title">{title}</span>
+                        <span className="courses-header__text">{desc}</span>
                     </div>
-                    <div className="courses-header__left">
-                        <a href="#" className="courses-header__link">
-                            تمامی دوره ها
-                            <i className="fas fa-arrow-left courses-header__icon"></i>
-                        </a>
-                    </div>
+                    {
+                        !!linkTitle &&
+                        <div className="courses-header__left">
+                            <a href="#" className="courses-header__link">
+                                {linkTitle}
+                                <AiOutlineArrowLeft />
+                            </a>
+                        </div>
+                    }
                 </div>
             </div>
         </div>

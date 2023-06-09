@@ -3,7 +3,12 @@ import { FaChalkboardTeacher } from 'react-icons/fa';
 import { FcApproval } from "react-icons/fc";
 import './GoalBox.css';
 
-function GoalBox() {
+interface GoalBoxProps {
+    title: string,
+    desc: string,
+}
+
+function GoalBox({ title, desc }: GoalBoxProps) {
     return (
         <>
             <div className='goal-box'>
@@ -11,8 +16,8 @@ function GoalBox() {
                     <FcApproval />
                 </div>
                 <div className='goal-info'>
-                    <span>دوره پولی و رایگان</span>
-                    <span className='goal-info-description'>براش مهم نیست. به مدرسینش حقوق میده تا نهایت کیفیت رو در پشتیبانی و اپدیت دوره ارائه بده</span>
+                    <span>{title}</span>
+                    <span className='goal-info-description'>{desc}</span>
                 </div>
             </div>
         </>
