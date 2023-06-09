@@ -1,0 +1,132 @@
+.banner {
+    background: linear-gradient(rgba(54, 54, 54, 0.6), rgba(0, 0, 0, 0.6)), url("../../../Asset/Images/backgroundBanner.jpg") no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 9rem 0;
+    color: rgb(241, 241, 241);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px 10px;
+}
+
+.banner h1 {
+    font-weight: bold;
+}
+
+.banner > p:first-of-type {
+    margin: 20px 0 30px;
+    font-size: 1.4rem;
+}
+
+.banner-search {
+    width: 50%;
+    position: relative;
+    padding: 20px;
+    border-radius: 5px;
+    background: white;
+    display: flex;
+}
+
+.banner-search input {
+    width: 100%;
+    outline: 0;
+    border: 0;
+    height: 100%;
+    font-size: 1.2rem;
+}
+
+.banner-search input::placeholder {
+    color: rgba(190, 190, 190, 0.958);
+}
+
+.banner-goal {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    margin-top: 30px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.banner-goal div {
+    width: 200px;
+}
+
+.banner-goal div svg {
+    font-size: 4rem;
+}
+
+.banner-goal div p {
+    margin-top: 15px;
+}
+
+
+@media screen and (min-width: 1025px) {
+
+    .banner {
+        height: calc(90vh - 100px);
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    .banner-goal div svg {
+        font-size: 4rem;
+    }
+
+    .banner > p:first-of-type  {
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+
+    .banner h1,
+    .banner-goal div p {
+        font-size: 1.5rem;
+    }
+
+    .banner > p:first-of-type  {
+        font-size: 0.9rem;
+    }
+
+    .banner-goal div svg {
+        font-size: 2rem;
+    }
+
+    .banner-search {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .banner-search input {
+        font-size: 0.6rem;
+    }
+
+    .banner h1,
+    .banner-goal div p {
+        font-size: .9rem;
+    }
+
+    .banner > p:first-of-type  {
+        font-size: .7rem;
+    }
+
+    .banner-goal div svg {
+        font-size: 2rem;
+    }
+
+    .banner-search {
+        width: 60%;
+    }
+
+    .banner-search a {
+        height: 26px !important;
+    }
+}

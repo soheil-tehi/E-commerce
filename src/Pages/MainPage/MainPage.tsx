@@ -1,8 +1,9 @@
 import React from 'react'
+import Banner from '../../Components/Main/Banner/Banner';
 
 function MainPage() {
     return (
-        <div>Main</div>
+        <Banner />
     )
 }
 

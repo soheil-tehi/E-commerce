@@ -64,6 +64,10 @@ header .nav-btn {
         display: none !important;
     }
 
+    .mainHeader-left > div:last-of-type{
+        display: none !important;
+    }
+
     .menu-account,
     .menu-avatar {
         display: block !important;
