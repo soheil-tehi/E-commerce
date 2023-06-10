@@ -1,0 +1,15 @@
+.comment {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    width: 100%;
+}
+
+.comment-info textarea {
+    width: 100%;
+    resize: none;
+    padding: 10px;
+    overflow: auto;
+    outline: none;
+}
