@@ -19,6 +19,7 @@
     left: 20px;
     top: -20px;
     text-align: right;
+    border-radius: 5px;
 }
 
 .footer-desc p {
@@ -33,6 +34,7 @@
     position: absolute;
     right: 0;
     top: 90%;
+    padding: 0;
 }
 
 .footer-desc ul li a {
