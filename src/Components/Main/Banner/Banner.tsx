@@ -43,7 +43,7 @@ const Banner = memo(function Banner() {
                         <BiSearchAlt2 />
                     </IconButton>
                 </div>
-                <Row className=' mt-5 banner-goal justify-content-center'>
+                <Row className='d-none d-md-flex  mt-5 banner-goal justify-content-center'>
                     {
                         bannerGoalsData.map((bannerGoalData: BannerGoalsDataType) => (
                             <BannerItem key={bannerGoalData.id} {...bannerGoalData} />

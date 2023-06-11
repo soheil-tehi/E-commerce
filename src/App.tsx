@@ -3,6 +3,7 @@ import { useRoutes } from 'react-router-dom';
 import routes from './Routes';
 import Navbar from './Components/Navabar/Navbar';
 import './App.css';
+import Footer from './Components/Footer/Footer';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
     <div className="App">
       <Navbar />
       {router}
+      <Footer />
     </div>
   );
 }

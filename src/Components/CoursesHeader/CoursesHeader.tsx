@@ -10,7 +10,6 @@ interface CoursesHeaderProps {
 function CoursesHeader({ title, desc, linkTitle }: CoursesHeaderProps) {
     return (
         <div className="courses">
-            <div className="container">
                 <div className="courses-header">
                     <div className="courses-header-right">
                         <span className="courses-header-title">{title}</span>
@@ -26,7 +25,6 @@ function CoursesHeader({ title, desc, linkTitle }: CoursesHeaderProps) {
                         </div>
                     }
                 </div>
-            </div>
         </div>
     )
 
