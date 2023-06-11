@@ -8,7 +8,28 @@ import './navbar.css';
 import IconButton from '../IconButton/IconButton';
 import Avatar from './Avatar/Avatar';
 
-const pages = ['صفحه اصلی', 'فرانت اند', 'امنیت', 'مقالات'];
+const pages = [
+    {
+        id: 1,
+        title: "صفحه اصلی",
+        path: "/"
+    },
+    {
+        id: 2,
+        title: "فرانت اند",
+        path: "/frontproducts"
+    },
+    {
+        id: 3,
+        title: "بک اند",
+        path: ""
+    },
+    {
+        id: 4,
+        title: "مقالات",
+        path: ""
+    },
+];
 
 const Navbar = memo(function Navbar() {
     const navRef = useRef<HTMLDivElement>();
@@ -32,7 +53,7 @@ const Navbar = memo(function Navbar() {
                         <IconButton className='nav-btn nav-close-btn text-light' onClick={showNavbar}>
                             <FaTimes />
                         </IconButton>
-                        <Avatar className='menu-avatar' alt='avatar'/>
+                        <Avatar className='menu-avatar' alt='avatar' />
                         <MyButton variant='outlined' className='menu-account py-2 me-2' >
                             سهیل طهرانی و سروش طهرانی
                         </MyButton>
@@ -44,8 +65,8 @@ const Navbar = memo(function Navbar() {
                     </IconButton>
                     <MyButton variant='outlined' className='py-2 me-2' >
                         سهیل طهرانی و سروش طهرانی
-                    </MyButton>                    
-                    <Avatar src='images/avatar.jpg' alt='avatar'/>
+                    </MyButton>
+                    <Avatar src='images/avatar.jpg' alt='avatar' />
                 </div>
             </div>
         </header>

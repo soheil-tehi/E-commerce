@@ -9,7 +9,7 @@ function CourseBoxs() {
     const [newCourses, setNewCourses] = useState([{ id: 1 }, { id: 2 }, { id: 3 }]);
     return (
         <>
-            <CoursesHeader
+            {/* <CoursesHeader
                 title="جدید ترین دوره ها"
                 desc={"سکوی پرتاپ شما به سمت موفقیت"}
                 linkTitle={"تمامی دوره ها"}
@@ -24,7 +24,7 @@ function CourseBoxs() {
                     ))
 
                 }
-            </Row>
+            </Row> */}
         </>
     )
 }

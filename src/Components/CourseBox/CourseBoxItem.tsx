@@ -6,7 +6,14 @@ import courseCoverImg from '../../Asset/Images/course-cover.png';
 
 import './CourseBox.css'
 
-function CourseBoxItem() {
+interface CourseBoxItemProps {
+    title: string;
+    teacher: string;
+    studentCount: number;
+    price: string;
+}
+
+function CourseBoxItem({ title, teacher, studentCount, price }: CourseBoxItemProps) {
     return (
         <>
             <div className="course">
@@ -14,22 +21,22 @@ function CourseBoxItem() {
                     <img src={courseCoverImg} alt="course-cover" />
                 </div>
                 <div className="course-info">
-                    <h4 className="course-title">دوره پروژه محور</h4>
+                    <h5 className="course-title">{title}  </h5>
                     <div className="course-teacher-rating">
                         <div className="course-teacher">
                             <FaChalkboardTeacher />
-                            <span>سهیل طهرانی</span>
+                            <span>{teacher} </span>
                         </div>
-                        <div className="course-rating">
+                        {/* <div className="course-rating">
                             <span>rating</span>
-                        </div>
+                        </div> */}
                     </div>
                     <div className="course-student-price">
                         <div className="course-student">
                             <IoIosPeople />
-                            <span>500</span>
+                            <span>{studentCount}</span>
                         </div>
-                        <p className='course-price'>1,000,000</p>
+                        <p className='course-price'>{price}</p>
                     </div>
                 </div>
                 <div className="course-footer">

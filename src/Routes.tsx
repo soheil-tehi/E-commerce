@@ -1,10 +1,11 @@
-import { ArticleInfo, Category, CourseInfo, MainPage } from './Pages/index';
+import { ArticleInfo, Category, CourseInfo, MainPage, FrontProducts } from './Pages/index';
 
 const routes = [
     { path: "/", element: < MainPage /> },
-    { path: "/courseInfo/:courseName", element: < CourseInfo /> },
+    { path: "/:courseInfo/:courseid", element: < CourseInfo /> },
     { path: "/category/:categoryName", element: < Category /> },
     { path: "/articleInfo/articleInfoName", element: < ArticleInfo /> },
+    { path: "/frontproducts", element: < FrontProducts /> },
 ]
 
 export default routes;

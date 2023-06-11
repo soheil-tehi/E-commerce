@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.rtl.min.css';
-import './Asset/Fonts/Parastoo.ttf';
+import './Asset/Fonts/IRANSans.ttf';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement

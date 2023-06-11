@@ -8,8 +8,8 @@
 }
 
 @font-face {
-  font-family: 'Parastoo';
-  src: local('Parastoo'), url("./Asset/Fonts/Parastoo.ttf") format('truetype');
+  font-family: 'IRANSans';
+  src: local('IRANSans'), url("./Asset/Fonts/IRANSans.ttf") format('truetype');
 }
 
 
@@ -17,6 +17,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Parastoo";
+  font-family: "IRANSans";
 
 }
