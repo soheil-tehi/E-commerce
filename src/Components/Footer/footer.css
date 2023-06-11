@@ -97,23 +97,23 @@
     content: "";
     position: absolute;
     z-index: -1;
-    left: 100%;
     right: 0;
     bottom: 0;
     background: var(--SeccondColor);
     height: 4px;
-    -webkit-transition-property: left;
-    transition-property: left;
+    -webkit-transition-property: width;
+    transition-property: width;
     -webkit-transition-duration: 0.7s;
     transition-duration: 0.7s;
     -webkit-transition-timing-function: ease-out;
     transition-timing-function: ease-out;
+    width: 0%;
 }
 
 .hvr-underline-from-right:hover:before,
 .hvr-underline-from-right:focus:before,
 .hvr-underline-from-right:active:before {
-    left: 0;
+    width: 92%;
 }
 
 .footer-contactUs {}
