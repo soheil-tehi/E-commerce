@@ -48,7 +48,7 @@ const ArticleBox = memo(function ArticleBox() {
                 linkTitle={"تمامی مقالات"}
             />
             <section className='py-5'>
-                <div className="container flexBasic">
+                <div className="flexBasic">
                     <Row>
                         {
                             articaleBoxItems.map((item: ArticaleBoxItemType) => (

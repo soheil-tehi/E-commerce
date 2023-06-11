@@ -1,5 +1,4 @@
 import React, { memo, useRef } from 'react';
-import { BiSearchAlt2 } from "react-icons/bi";
 import { FaBars, FaShoppingCart, FaTimes } from "react-icons/fa";
 import Logo from './Logo/Logo';
 import Menu from './Menu/Menu';
@@ -43,7 +42,7 @@ const Navbar = memo(function Navbar() {
 
     return (
         <header>
-            <div className="container flexBasic" >
+            <div className="container flexBasic">
                 <IconButton className='textMainColor nav-btn' onClick={showNavbar}>
                     <FaBars />
                 </IconButton>
@@ -54,7 +53,7 @@ const Navbar = memo(function Navbar() {
                             <FaTimes />
                         </IconButton>
                         <Avatar className='menu-avatar' alt='avatar' />
-                        <MyButton variant='outlined' className='menu-account py-2 me-2' >
+                        <MyButton variant='outlined' className='menu-account py-2 me-2'>
                             سهیل طهرانی و سروش طهرانی
                         </MyButton>
                     </Menu>
@@ -63,7 +62,7 @@ const Navbar = memo(function Navbar() {
                     <IconButton className='me-2 ShoppingCartBtn'>
                         <FaShoppingCart />
                     </IconButton>
-                    <MyButton variant='outlined' className='py-2 me-2' >
+                    <MyButton variant='outlined' className='py-2 me-2'>
                         سهیل طهرانی و سروش طهرانی
                     </MyButton>
                     <Avatar src='images/avatar.jpg' alt='avatar' />

@@ -73,6 +73,11 @@
   overflow: hidden;
 }
 
+.iconGray {
+  background-color: #efebeb !important;
+  color: #464749 !important;
+}
+
 .multiline-ellipsis {
   overflow: hidden;
   display: -webkit-box;
