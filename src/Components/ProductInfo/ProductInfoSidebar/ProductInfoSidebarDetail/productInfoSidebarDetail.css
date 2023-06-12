@@ -1,0 +1,42 @@
+.info-details ul {
+    padding: 0;
+    margin: 0;
+}
+
+.info-details ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #dbdbea;
+    padding: 10px;
+}
+
+.info-details ul li em {
+    color: #292b39;
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.info-details ul li em svg {
+    margin-left: 5px;
+}
+
+.info-details ul li span {
+    color: #292b39;
+    font-size: 13px;
+    font-weight: 700;
+    margin-right: 5px;
+}
+
+.info-details ul li:last-child em {
+    font-size: 22px !important;
+    font-weight: 700 !important;
+}
+
+.info-details ul li:last-child span {
+    font-size: 22px !important;
+    font-weight: 700 !important;
+}
