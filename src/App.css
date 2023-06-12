@@ -85,3 +85,8 @@
   -webkit-line-clamp: 3;
   white-space: pre-wrap;
 }
+
+.course-box-link {
+  text-decoration: none;
+  color: black;
+}

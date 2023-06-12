@@ -26,7 +26,7 @@ const pages = [
     {
         id: 4,
         title: "مقالات",
-        path: ""
+        path: "/Articles"
     },
     {
         id: 4,
