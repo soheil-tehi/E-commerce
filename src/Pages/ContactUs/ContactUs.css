@@ -1,0 +1,81 @@
+.contactUs-wrapper {
+    width: 80%;
+    margin: 25px auto;
+
+}
+
+.contactUs-wrapper svg {
+    color: green;
+    font-size: 30px;
+}
+
+.call-box {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.call-box h4 {
+    margin: 15px 0;
+}
+
+.send-message-wrapper {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.sned-message-form textarea {
+    display: block;
+    width: 100%;
+    resize: none;
+    margin: 10px 0;
+    border-radius: 5px;
+    outline: none;
+}
+
+.sned-message-form a {
+    display: block;
+    width: 100%;
+}
+
+.sned-message-form input {
+    display: block;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.sned-message-form :nth-child(2) {
+    border-radius: 5px;
+    padding: 5px;
+    outline: none;
+}
+
+.sned-message-form-name {
+    display: flex;
+    justify-content: stretch;
+}
+
+.sned-message-form-name input {
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px 0;
+}
+
+.sned-message-form-name :first-child {
+    margin-left: 10px;
+}
+
+@media screen and (min-width:992px) {
+    .email {
+        height: 177px;
+    }
+}
+
+@media screen and (min-width:1067px) {
+    .email {
+        height: 150px;
+    }
+
+    .address {
+        height: 150px;
+    }
+}

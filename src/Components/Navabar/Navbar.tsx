@@ -28,6 +28,11 @@ const pages = [
         title: "مقالات",
         path: ""
     },
+    {
+        id: 4,
+        title: "تماس با ما",
+        path: "/contact-us"
+    },
 ];
 
 const Navbar = memo(function Navbar() {
