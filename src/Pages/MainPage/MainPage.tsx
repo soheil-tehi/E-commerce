@@ -4,6 +4,8 @@ import { Container } from 'react-bootstrap';
 import ArticleBox from '../../Components/Main/ArticleBox/ArticleBox';
 import GoalBoxs from '../../Components/Main/GoalBox/GoalBoxs';
 import CourseBoxs from '../../Components/CourseBox/CourseBoxs';
+import CommentTextArea from '../../Components/CommentTextArea/CommentTextArea';
+import Breadcrumbs from '../../Components/Breadcrumbs/Breadcrumbs';
 
 
 function MainPage() {
@@ -15,6 +17,9 @@ function MainPage() {
                 <CourseBoxs />
                 <GoalBoxs />
                 <ArticleBox />
+
+                {/* <Breadcrumbs secondPath='/articles' secondTitle='مقالات' endTitle='مینیت سایت' /> */}
+
             </Container>
         </>
     )

@@ -4,19 +4,23 @@ import "./CommentTextArea.css"
 
 function CommentTextArea() {
 
-    const isLogin = true;
+    const isLogin = false;
 
     if (!isLogin) {
         return (
             <>
-                <div>
-                    <p>لطفا برای ثبت دیدگاه ابتدا وارد حساب کاربری خود شوید.</p>
+                <div className='comment-logout borderBasic'>
+                    <p className='comment-logout-title'>دیدگاهتان را بنویسید </p>
+                    <div className='comment-logout-body'>
+                        <p>برای نوشتن دیدگاه باید</p>
+                        <MyButton variant='contained'>وارد شوید</MyButton>
+                    </div>
                 </div>
             </>
         )
     } else {
         return (
-            <div className='comment borderBasic'>
+            <div className='comment-login borderBasic'>
                 <div className='comment-info'>
                     <p>ثبت دیدگاه</p>
                     <textarea className='borderBasic' id="w3review" name="w3review" rows={4} cols={100} />

@@ -1,4 +1,5 @@
-.comment {
+.comment-login {
+    margin: 20px 0;
     padding: 10px;
     display: flex;
     flex-direction: column;
@@ -12,4 +13,29 @@
     padding: 10px;
     overflow: auto;
     outline: none;
+}
+
+.comment-logout {
+    margin: 20px 0;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.comment-logout-title {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.comment-logout-body {
+    display: flex;
+    align-items: center;
+}
+
+.comment-logout-body p {
+    margin: 0;
+    margin-left: 5px;
+
 }

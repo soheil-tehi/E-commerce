@@ -1,0 +1,30 @@
+.Breadcrumbs-wrapper {
+    margin: 10px 0;
+    padding: 15px 10px 0 0;
+    display: flex;
+    background-color: #ccc;
+}
+
+.Breadcrumbs-logo {
+
+    /* margin-bottom: 25px; */
+}
+
+.Breadcrumbs-logo svg {
+    font-size: 25px;
+    color: #fff;
+
+
+}
+
+
+
+.Breadcrumb-custom {
+    margin: auto 0;
+    margin-right: 10px;
+}
+
+.Breadcrumb-custom a {
+    color: green;
+    text-decoration: none;
+}
