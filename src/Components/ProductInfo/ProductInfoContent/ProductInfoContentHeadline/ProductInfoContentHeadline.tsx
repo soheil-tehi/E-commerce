@@ -1,6 +1,5 @@
 import React, { memo } from 'react';
 import Jumbotron from '../../../Jumbotron/Jumbotron';
-import './productInfoContentHeadline.css';
 import HeadLineAccordion from './HeadLineAccordion/HeadLineAccordion';
 
 const ProductInfoContentHeadline = memo(function ProductInfoContentHeadline() {

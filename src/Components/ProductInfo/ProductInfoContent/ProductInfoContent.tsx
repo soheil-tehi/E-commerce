@@ -4,7 +4,6 @@ import ProductInfoContentHeader from './ProductInfoContentHeader/ProductInfoCont
 import ProductInfoContentDescription from './ProductInfoContentDescription/ProductInfoContentDescription';
 import ProductInfoContentHeadline from './ProductInfoContentHeadline/ProductInfoContentHeadline';
 import ProductInfoContentFAQ from './ProductInfoContentFAQ/ProductInfoContentFAQ';
-import './productInfoContent.css';
 
 const ProductInfoMain = memo(function ProductInfoMain() {
 

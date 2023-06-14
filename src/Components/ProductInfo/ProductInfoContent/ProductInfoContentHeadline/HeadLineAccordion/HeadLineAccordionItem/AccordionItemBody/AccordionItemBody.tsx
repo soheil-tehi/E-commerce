@@ -1,5 +1,4 @@
 import React, { memo } from 'react';
-import './accordionItemBody.css';
 import { FaGenderless } from 'react-icons/fa';
 
 interface AccordionItemBodyprops {

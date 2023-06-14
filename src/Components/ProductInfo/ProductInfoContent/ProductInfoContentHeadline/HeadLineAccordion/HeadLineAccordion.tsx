@@ -1,7 +1,6 @@
 import React, { memo } from 'react';
 import Accordion from 'react-bootstrap/Accordion';
 import HeadLineAccordionItem from './HeadLineAccordionItem/HeadLineAccordionItem';
-import './headLineAccordion.css';
 
 const headLineAccordionItemsData = [
     {
