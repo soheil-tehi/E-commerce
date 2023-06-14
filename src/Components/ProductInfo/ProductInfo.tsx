@@ -1,7 +1,7 @@
 import React, { memo } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import ProductInfoSidebar from './ProductInfoSidebar/ProductInfoSidebar';
-import ProductInfoMain from './ProductInfoMain/ProductInfoMain';
+import ProductInfoMain from './ProductInfoContent/ProductInfoContent';
 
 const ProductInfo = memo(function ProductInfo() {
 

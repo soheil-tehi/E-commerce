@@ -1,0 +1,40 @@
+.HeadLine-AccordionItem {    
+    margin-bottom: 15px
+}
+
+.HeadLine-AccordionItem button {
+    font-size: 0.6em;
+    font-weight: bold;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.HeadLine-AccordionItem button em {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.HeadLine-AccordionItem-body ul {
+    margin: 0;
+    padding: 0 0 10px;
+}
+
+.HeadLine-AccordionItem-body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.HeadLine-AccordionItem-body ul li {
+    font-size: 20px;
+    padding: 20px 10px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.HeadLine-AccordionItem-body ul li:first-child {
+    border-top: 1px solid #e6e6e6;
+}
+
+.HeadLine-AccordionItem-body ul li:nth-child(even) {
+    background-color: #e6e6e6;
+}

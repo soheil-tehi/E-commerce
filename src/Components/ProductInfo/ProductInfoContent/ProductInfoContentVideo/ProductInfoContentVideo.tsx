@@ -1,6 +1,6 @@
 import React, { memo } from 'react';
 import VideoTitle from '../../../../Asset/Images/ProductsInfo/video-img.png';
-import './productInfoVideo.css';
+import './productInfoContentVideo.css';
 
 const ProductInfoVideo = memo(function ProductInfoVideo() {
 
