@@ -9,7 +9,7 @@ interface MenuProps {
 
 const Menu = memo(forwardRef(({ listPages, children }: MenuProps, ref: any) => {
     return (
-        <nav ref={ref}>
+        <nav className='navbar-nav' ref={ref}>
             <ul className='menu m-0'>
                 {children}
                 {listPages.map(page => (
