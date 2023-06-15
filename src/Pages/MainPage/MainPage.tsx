@@ -18,7 +18,6 @@ function MainPage() {
                 <GoalBoxs />
                 <ArticleBox />
 
-                {/* <Breadcrumbs secondPath='/articles' secondTitle='مقالات' endTitle='مینیت سایت' /> */}
 
             </Container>
         </>

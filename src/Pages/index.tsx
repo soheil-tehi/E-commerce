@@ -5,6 +5,8 @@ import CourseInfo from './CourseInfo/CourseInfo';
 import FrontProducts from './FrontProducts/FrontProducts';
 import ContactUs from './ContactUs/ContactUs';
 import Articles from './Articles/Articles';
+import Login from './Login/Login';
+import Register from './Register/Register';
 
 export {
     MainPage,
@@ -14,4 +16,6 @@ export {
     FrontProducts,
     ContactUs,
     Articles,
+    Login,
+    Register
 }

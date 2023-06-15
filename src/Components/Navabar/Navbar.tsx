@@ -6,6 +6,9 @@ import MyButton from '../Button/Button';
 import './navbar.css';
 import IconButton from '../IconButton/IconButton';
 import Avatar from './Avatar/Avatar';
+import { useNavigate } from 'react-router-dom';
+
+
 
 const pages = [
     {
@@ -36,6 +39,9 @@ const pages = [
 ];
 
 const Navbar = memo(function Navbar() {
+
+    const navigate = useNavigate();
+
     const navRef = useRef<HTMLDivElement>();
     const showNavbar = () => {
         if (navRef.current) {
@@ -67,8 +73,8 @@ const Navbar = memo(function Navbar() {
                     <IconButton className='me-2 ShoppingCartBtn'>
                         <FaShoppingCart />
                     </IconButton>
-                    <MyButton variant='outlined' className='py-2 me-2'>
-                        سهیل طهرانی و سروش طهرانی
+                    <MyButton variant='outlined' className='py-2 me-2' onClick={() => navigate('/login')}>
+                        ورود | ثبت نام
                     </MyButton>
                     <Avatar src='images/avatar.jpg' alt='avatar' />
                 </div>

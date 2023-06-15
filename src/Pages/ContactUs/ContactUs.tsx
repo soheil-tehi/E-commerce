@@ -2,10 +2,9 @@ import React from 'react';
 import { FiPhoneCall } from 'react-icons/fi';
 import { MdOutlineEmail } from 'react-icons/md';
 import { BiMessageDetail } from 'react-icons/bi';
-
-import './ContactUs.css';
 import { Col, Container, Row } from 'react-bootstrap';
 import MyButton from '../../Components/Button/Button';
+import './ContactUs.css';
 
 function ContactUs() {
     return (

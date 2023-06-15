@@ -1,0 +1,87 @@
+.register-wrapper {
+    /* border: 1px solid #ccc; */
+    /* border-radius: 5px; */
+    padding: 10px;
+    width: 40%;
+    margin: 50px auto;
+    margin-bottom: 150px;
+    text-align: right;
+}
+
+.register-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.register-title svg {
+    font-size: 32px;
+    color: green;
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.register-form label {
+    margin: 10px 0;
+}
+
+.register-name-input {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 5px;
+
+    outline: none;
+}
+
+
+
+.register-password {
+    /* padding: 5px; */
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.register-password input {
+    padding: 5px;
+    outline: none;
+    border: none;
+    width: 95%;
+}
+
+.register-password svg {
+    margin-left: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.google-register {
+    width: 40%;
+    margin: 10px auto;
+    /* text-align: center; */
+}
+
+
+@media screen and (max-width:1160px) {
+    .register-wrapper {
+
+        width: 60%;
+
+    }
+}
+
+@media screen and (max-width:750px) {
+    .register-wrapper {
+
+        width: 90%;
+
+    }
+}

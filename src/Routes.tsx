@@ -1,4 +1,6 @@
-import { ArticleInfo, Category, CourseInfo, MainPage, FrontProducts, ContactUs, Articles } from './Pages/index';
+import {
+    ArticleInfo, Category, CourseInfo, MainPage, FrontProducts, ContactUs, Articles, Login, Register
+} from './Pages/index';
 
 const routes = [
     { path: "/", element: < MainPage /> },
@@ -9,6 +11,8 @@ const routes = [
     { path: "/contact-us", element: < ContactUs /> },
     { path: "/articles", element: < Articles /> },
     { path: "/articles/:id", element: < ArticleInfo /> },
+    { path: "/login", element: < Login /> },
+    { path: "/Register", element: < Register /> },
 ]
 
 export default routes;
