@@ -1,0 +1,103 @@
+.table-content {
+    border-collapse: collapse;
+    border: 1px solid black;
+    width: 100%;
+}
+
+.table-content th,
+.table-content td {
+    padding: 25px;
+}
+
+.table-content tr {
+    border-bottom: 1px dashed black;
+}
+
+.product-wrapepr {
+    display: flex;
+    align-items: center;
+}
+
+.product-wrapepr p {
+    margin: 0;
+    margin-right: 10px;
+}
+
+.product-img-wrapper {
+    width: 30%;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.product-img-wrapper img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.delete-icon {
+    color: red;
+    font-size: 32px;
+    cursor: pointer;
+}
+
+/* total box price */
+.total-price-box {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.total-price-title {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px dashed #ccc;
+}
+
+.total-price-title svg {
+    color: green;
+    font-size: 30px;
+}
+
+.total-price-cost {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+/* off-box */
+.off-box {
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 15px 10px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.off-box input {
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    width: 100%;
+}
+
+.off-box button {
+    position: absolute;
+    left: 20px;
+    top: 21px;
+    padding: 3px 10px;
+    background-color: #eee;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid green;
+    color: green;
+    transition: 0.4s all ease;
+}
+
+.off-box button:hover {
+    color: white;
+    background-color: green;
+}

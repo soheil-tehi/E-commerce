@@ -7,6 +7,7 @@ import ContactUs from './ContactUs/ContactUs';
 import Articles from './Articles/Articles';
 import Login from './Login/Login';
 import Register from './Register/Register';
+import Cart from './Cart/Cart';
 
 export {
     MainPage,
@@ -17,5 +18,6 @@ export {
     ContactUs,
     Articles,
     Login,
-    Register
+    Register,
+    Cart,
 }

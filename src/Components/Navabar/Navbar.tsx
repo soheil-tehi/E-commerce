@@ -70,7 +70,7 @@ const Navbar = memo(function Navbar() {
                     </Menu>
                 </div>
                 <div className='mainHeader-left flexBasic'>
-                    <IconButton className='me-2 ShoppingCartBtn'>
+                    <IconButton className='me-2 ShoppingCartBtn' onClick={() => navigate("/cart")}>
                         <FaShoppingCart />
                     </IconButton>
                     <MyButton variant='outlined' className='py-2 me-2' onClick={() => navigate('/login')}>
