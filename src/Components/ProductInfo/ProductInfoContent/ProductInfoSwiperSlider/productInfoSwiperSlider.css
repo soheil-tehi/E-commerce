@@ -1,0 +1,45 @@
+.product-swiperSlider-custom {
+    width: 300px !important;
+}
+
+.product-course-box .course-cover{
+    height: 200px;
+}
+
+.product-course-box .course{
+    width: 300px;
+}
+
+.product-course-box .course-cover img{
+    height: 100%;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+    width: 100%;
+    justify-content: center;
+    font-weight: bold;
+    color: orange;
+}
+
+.swiper-button-prev:hover::after,
+.swiper-button-next:hover::after {
+    background: #d3d3d398 !important;
+    font-size: 3em;
+}
+
+.product-course-box .swiper-slide {
+    justify-content: center;
+    width: 320px;
+    display: flex;
+}
+
+.my-swiper .swiper-slide {
+    justify-content: center;
+    width: 320px;
+    display: flex;
+}

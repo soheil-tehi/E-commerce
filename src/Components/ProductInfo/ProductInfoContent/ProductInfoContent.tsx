@@ -4,6 +4,7 @@ import ProductInfoContentHeader from './ProductInfoContentHeader/ProductInfoCont
 import ProductInfoContentDescription from './ProductInfoContentDescription/ProductInfoContentDescription';
 import ProductInfoContentHeadline from './ProductInfoContentHeadline/ProductInfoContentHeadline';
 import ProductInfoContentFAQ from './ProductInfoContentFAQ/ProductInfoContentFAQ';
+import ProductInfoSwiperSlider from './ProductInfoSwiperSlider/ProductInfoSwiperSlider';
 
 const ProductInfoMain = memo(function ProductInfoMain() {
 
@@ -14,6 +15,7 @@ const ProductInfoMain = memo(function ProductInfoMain() {
             <ProductInfoContentDescription />
             <ProductInfoContentHeadline />
             <ProductInfoContentFAQ />
+            <ProductInfoSwiperSlider />
         </section>
     )
 })

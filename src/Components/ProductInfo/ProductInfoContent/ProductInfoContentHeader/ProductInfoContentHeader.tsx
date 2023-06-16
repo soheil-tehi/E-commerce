@@ -9,7 +9,7 @@ const ProductInfoContentHeader = memo(function ProductInfoContentHeader() {
                 <li><a href="#Description"> توضیحات </a></li>
                 <li><a href="#Headline"> سر فصلها </a></li>
                 <li><a href="#FAQ"> سوالات متداول </a></li>
-                <li><a href="#"> محصولات مرتبط </a></li>
+                <li><a href="#RelatedVideos"> محصولات مرتبط </a></li>
                 <li><a href="#"> نقد و بررسی ها </a></li>
             </ul>
         </div>

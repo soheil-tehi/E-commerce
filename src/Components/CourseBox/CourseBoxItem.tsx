@@ -21,11 +21,11 @@ function CourseBoxItem({ title, teacher, studentCount, price }: CourseBoxItemPro
                     <img src={courseCoverImg} alt="course-cover" />
                 </div>
                 <div className="course-info">
-                    <h5 className="course-title">{title}  </h5>
+                    <h5 className="course-title"> {title} </h5>
                     <div className="course-teacher-rating">
                         <div className="course-teacher">
                             <FaChalkboardTeacher />
-                            <span>{teacher} </span>
+                            <span> {teacher} </span>
                         </div>
                         {/* <div className="course-rating">
                             <span>rating</span>
@@ -34,9 +34,9 @@ function CourseBoxItem({ title, teacher, studentCount, price }: CourseBoxItemPro
                     <div className="course-student-price">
                         <div className="course-student">
                             <IoIosPeople />
-                            <span>{studentCount}</span>
+                            <span> {studentCount} </span>
                         </div>
-                        <p className='course-price'>{price}</p>
+                        <p className='course-price'> {price} </p>
                     </div>
                 </div>
                 <div className="course-footer">

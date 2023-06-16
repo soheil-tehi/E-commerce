@@ -7,7 +7,7 @@ const ProductInfoContentHeadline = memo(function ProductInfoContentHeadline() {
     return (
         <section id='Headline' className='content-Description text-start mt-5 mb-3'>
             <Jumbotron >
-                <h1> سر فصل ها </h1>
+                <h2> سر فصل ها </h2>
                 <HeadLineAccordion />
             </Jumbotron>
         </section>
