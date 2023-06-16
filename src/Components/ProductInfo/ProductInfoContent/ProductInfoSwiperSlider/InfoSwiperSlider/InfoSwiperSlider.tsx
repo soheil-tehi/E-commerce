@@ -2,24 +2,22 @@ import { memo } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Scrollbar } from 'swiper';
 import { Link } from 'react-router-dom';
-import CourseBoxItem from '../../../../CourseBox/CourseBoxItem';
+import exampleImg from '../../../../../Asset/Images/ProductsInfo/javaScript.png'
 import "swiper/swiper.min.css";
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import "./infoSwiperSlider.css";
+import InfoSwiperItems from '../InfoSwiperItems/InfoSwiperItems';
 
 const fakeData = [
-    { id: 1, title: "آموزش 20 کتابخانه جاوااسکریپت برای بازار کار", teacher: "سروش طهرانی", studentCount: 500, price: "100,000" },
-    { id: 2, title: "آموزش 20 کتابخانه جاوااسکریپت برای بازار کار", teacher: "سروش طهرانی", studentCount: 500, price: "100,000" },
-    { id: 3, title: "آموزش 20 کتابخانه جاوااسکریپت برای بازار کار", teacher: "سروش طهرانی", studentCount: 500, price: "100,000" },
-    { id: 4, title: "آموزش 20 کتابخانه جاوااسکریپت برای بازار کار", teacher: "سروش طهرانی", studentCount: 500, price: "100,000" },
-    { id: 5, title: "آموزش 20 کتابخانه جاوااسکریپت برای بازار کار", teacher: "سروش طهرانی", studentCount: 500, price: "100,000" },
-    { id: 6, title: "آموزش 20 کتابخانه جاوااسکریپت برای بازار کار", teacher: "سروش طهرانی", studentCount: 500, price: "100,000" },
-    { id: 7, title: "آموزش 20 کتابخانه جاوااسکریپت برای بازار کار", teacher: "سروش طهرانی", studentCount: 500, price: "100,000" },
-    { id: 8, title: "آموزش 20 کتابخانه جاوااسکریپت برای بازار کار", teacher: "سروش طهرانی", studentCount: 500, price: "100,000" },
-    { id: 9, title: "آموزش 20 کتابخانه جاوااسکریپت برای بازار کار", teacher: "سروش طهرانی", studentCount: 500, price: "100,000" },
-
+    { id: 1, img: exampleImg, hours: '47', title: "آموزش 20 کتابخانه جاوااسکریپت برای بازار کار", teacher: "سروش طهرانی", studentCount: 500, price: "100,000" },
+    { id: 2, img: exampleImg, hours: '47', title: "آموزش 20 کتابخانه جاوااسکریپت برای بازار کار", teacher: "سروش طهرانی", studentCount: 500, price: "100,000" },
+    { id: 3, img: exampleImg, hours: '47', title: "آموزش 20 کتابخانه جاوااسکریپت برای بازار کار", teacher: "سروش طهرانی", studentCount: 500, price: "100,000" },
+    { id: 4, img: exampleImg, hours: '47', title: "آموزش 20 کتابخانه جاوااسکریپت برای بازار کار", teacher: "سروش طهرانی", studentCount: 500, price: "100,000" },
+    { id: 5, img: exampleImg, hours: '47', title: "آموزش 20 کتابخانه جاوااسکریپت برای بازار کار", teacher: "سروش طهرانی", studentCount: 500, price: "100,000" },
+    { id: 6, img: exampleImg, hours: '47', title: "آموزش 20 کتابخانه جاوااسکریپت برای بازار کار", teacher: "سروش طهرانی", studentCount: 500, price: "100,000" },
+   
 ]
 
 const InfoSwiperSlider = memo(function InfoSwiperSlider() {
@@ -38,11 +36,14 @@ const InfoSwiperSlider = memo(function InfoSwiperSlider() {
                     <SwiperSlide>
                         <div className='product-swiperSlider-custom'>
                             <Link className='product-course-box course-box-link' to={`/frontend/${course.id}`}>
-                                <CourseBoxItem
+                                <InfoSwiperItems
+                                    img={course.img}
                                     title={course.title}
                                     teacher={course.teacher}
                                     studentCount={course.studentCount}
-                                    price={course.price} />
+                                    hours={course.hours}
+                                    price={course.price}
+                                     />
                             </Link>
                         </div>
                     </SwiperSlide>

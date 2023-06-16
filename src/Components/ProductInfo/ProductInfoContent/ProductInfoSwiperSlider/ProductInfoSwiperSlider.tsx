@@ -7,8 +7,8 @@ const ProductInfoSwiperSlider = memo(function ProductInfoSwiperSlider() {
 
     return (
         <section id='RelatedVideos' className='my-5'>
-            <Jumbotron>
-                <h2 className='text-start'> ویدئو های مرتبط </h2>
+            <Jumbotron className='px-0 pb-0'>
+                <h2 className='text-start px-5'> ویدئو های مرتبط </h2>
                 <InfoSwiperSlider />
             </Jumbotron>
         </section>
